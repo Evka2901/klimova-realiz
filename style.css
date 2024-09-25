@@ -1,1 +1,44 @@
-.regestration{background-color: palevioletred;}
+.regestration{
+    background-color: palevioletred;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.nav-link{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px palevioletred;
+    
+}
+
+.nav-link:hover{
+    color: purple;
+    transition: 0.6s;
+}
+
+.search-class-but{
+    background-color: palevioletred;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.search-class:hover{
+    box-shadow: 0 0px 5px 5px palevioletred;
+}
+
+.carousel1{
+    width: 400px;
+    height: 400px;
+}
+
+.carousel1 img{
+    width: 400px;
+    height: 400px;
+}
+
+.all-carousels{
+    display: flex;
+    justify-content: space-around;
+}
