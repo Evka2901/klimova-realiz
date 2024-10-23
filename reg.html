@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BEAUTY EYELASH- registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+
+<body>
+<header>
+    <!-- Шапка сайту: назва, логотип, навігація -->
+    <!-- Задайте свій колір фону background та оберіть тему data-bs-theme="dark" або
+        data-bs-theme="light"-->
+    <nav class="navbar navbar-expand-lg" style="background: grey;" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- додайте свій логотип і назву сайту -->
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Відредагуйте під ваші пункти меню -->
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">нарощені віі</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">брови</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="#">адреса</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            мова
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">українська
+                                    <img src="img/глк.png" width="50px">
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">англійська
+                                    <img src="img/америка.png" width="50px">
+                                </a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <div class="love">
+                    <input id="switch" type="checkbox">
+                    <label class="love-heart" for="switch">
+                        <i class="left"></i>
+                        <i class="right"></i>
+                        <i class="bottom"></i>
+                        <div class="round"></div>
+                    </label>
+                </div>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 search-class" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class=" search-class-but" type="submit">Search</button>
+                </form>
+                <button class="regestration">Log in</button>
+
+
+            </div>
+        </div>
+    </nav>
+</header>
+    <main class="container ">
+
+
+        <section class="registration">
+            <h2>Реєстрація</h2>
+            <form class="registration-form" action="javascript:void(0)">
+                <div class="form-group mt-3">
+                    <label for="username">Логін:</label>
+                    <input class="form-control" type="text" id="username" name="username" required placeholder="введіть ваш логін">
+                </div>
+
+
+                <div class="form-group mt-3">
+                    <label for="email">Електронна пошта:</label>
+                    <input class="form-control" type="email" id="email" name="email" required placeholder="max@gmail.com">
+                </div>
+
+
+                <div class="form-group mt-3">
+                    <label for="password">Пароль:</label>
+                    <input class="form-control" type="password" id="password" name="password" required placeholder="введіть ваш пороль">
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="confirmPassword">Підтвердження пароля:</label>
+                    <input class="form-control" type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+
+                <div id="passwordError" style="color: red; display: none;">
+
+
+                    <div class="form-group mt-3">
+                        <label for="phone">Номер телефону:</label>
+                        <input class="form-control" type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <button type="button" class="register-btn cart-btn margin-y mt-4">Зареєструватися</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="part-one">
+            <img src="img/resnitsy-2d-kaili-12-2.webp" />
+            <img src="img/Laminirovanie_resnits_salon_krasoty_Argento_Krasnoyarsk_19_Laminirovanie-1.jpg" />
+            <img src="img/images (3).jfif" />
+            <img src="img/images (1).jfif" />
+            <img src="img/images (2).jfif" />
+            <img src="img/1711977552_krasavica-info-5685-p-modnoe-narashchivanie-resnits-23.jpg" />
+        </div>
+        <div class="part-two">
+            <p class="follow-us">follow our instgram : @BEAUTY_EYELASH</p>
+            <nav>
+                <a href="">Нарощеня вії</a>
+                <a href="">Ламінування віі</a>
+                <a href="">Ламінування бров </a>
+                <a href="">Фарбування бров </a>
+            </nav>
+            <p>copyright BEAUTY EYELASH, all right reserved</p>
+        </div>
+    </footer>
+    
+   
+      
+
+
+
+  
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-bs-theme="light">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">Виникли запитання?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-dark">Будь ласка, залиште номер телефону і ми зв'яжемося з Вами.</p>
+                    <form action="" method="post">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="Номер телефону" />
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn cart-btn">Надіслати</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src='https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js'></script>
+    <script src="script.js"></script>
+    <script src="reg.js"></script>
+</body>
+
+
+</html>
